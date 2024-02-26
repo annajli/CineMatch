@@ -1,0 +1,5 @@
+```{r}
+ratings_small <- read.csv("data/ratings_small.csv")
+ratings_small
+```
+
