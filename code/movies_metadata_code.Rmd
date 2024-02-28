@@ -1,0 +1,5 @@
+```{r}
+movies_metadata <- read.csv("data/movies_metadata.csv")
+movies_metadata
+```
+
