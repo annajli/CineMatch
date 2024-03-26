@@ -1,5 +1,7 @@
 ```{r}
-keywords <- read.csv("data/keywords.csv")
+getwd()
+setwd("/Users/mizuki/Documents/GitHub/CineMatch")
+keywords <- read.csv("./data/keywords.csv")
 keywords
 ```
 

@@ -1,0 +1,9 @@
+```{r}
+getwd()
+setwd("/Users/mizuki/Documents/GitHub/CineMatch")
+ratings <- read.csv("./data/ratings.csv")
+na.omit(ratings)
+sorted_ratings <- ratings[order(ratings$X3.5, decreasing = TRUE),]
+sorted_ratings
+```
+
